@@ -1,0 +1,5 @@
+- name: Backup a directory
+  hosts: backup_hosts
+  become: true
+  roles:
+    - role: backup

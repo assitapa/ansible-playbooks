@@ -1,0 +1,5 @@
+- name: System package and compliance audit
+  hosts: compliance_hosts
+  become: true
+  roles:
+    - role: compliance
